@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:id="@+id/linear_topic"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right" >
+
+        <ToggleButton
+            android:id="@+id/toggleTopic"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/like_toggle_white"
+            android:focusable="false"
+            android:layout_gravity="left"
+            android:layout_marginBottom="1dp"
+            android:gravity="left"
+            android:focusableInTouchMode="false"
+            android:textOff=""
+            android:textOn="" />
+        
+        <ImageView
+            android:id="@+id/shareButton"
+             android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginBottom="1dp"
+            android:gravity="left"
+            android:layout_marginLeft="1dp"
+            android:src="@drawable/share" />
+
+        <TextView
+            android:id="@+id/topic_title_textView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColor="#ffffff"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        
+
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/topic_scrollview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/linear_topic" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:orientation="vertical"
+            android:padding="10dp" >
+
+            <TextView
+                android:id="@+id/topic_textView"
+                android:layout_width="fill_parent"
+                android:gravity="right"
+                android:layout_gravity="right"
+                android:layout_height="fill_parent"
+                android:lineSpacingExtra="7dp"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">روانشناس همراه</string>
+    <string name="action_settings">تنظیمات</string>
+    <string name="drawer_open">باز کردن</string>
+    <string name="drawer_close">بازگشت</string>
+    <string name="empty"></string>
+    <string name="available_topic">مقاله فعال است</string>
+    
+    <string name="search_label">جستجو</string>
+    <string name="search_hint">عبارت مورد جستجو...</string>
+    
+    <string name="new_string">جدید</string>
+    
+     <string name="favorate">می پسندم</string>
+     
+     <string name="purchase">ارتقا به نسخه کامل ...</string>
+     
+     <string name="purchase_button">پرداخت</string>
+
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="drawer_layout_shadow">#cccccc</color>
+    <color name="line_grey">#f6f7f8</color>
+    
+    <color name="black_purple">#310b47</color>
+    <color name="black_blue">#0b1a47</color>
+    <color name="dark_blue">#005278</color>
+    <color name="dark_purple">#780066</color>
+    <color name="dark_red">#bb0000</color>
+    <color name="light_blue">#006ebb</color>
+    <color name="light_green">#8caf00</color>
+    <color name="green">#489800</color>
+    <color name="dark_yellow">#ffc600</color>
+    <color name="orange">#ff7e00</color>
+    <color name="dark_orange">#ff4e00</color>
+    <color name="light_red">#f20000</color>
+    
+    <color name="dark_pink">#c700a4</color>
+    
+    <color name="test">#285767</color>
+    <color name="food">#00a78a</color>
+    <color name="color">#772700</color>
+    <color name="deactive">#bbbbbb</color>
+<color name="test_green">#35a4c8</color>
+</resources>

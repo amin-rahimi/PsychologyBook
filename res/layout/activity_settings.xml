@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:gravity="right"
+        android:orientation="vertical"
+        android:paddingBottom="10dp"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:paddingTop="10dp" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="مدیریت دسترسی کودکان"
+            android:textStyle="bold"
+            android:textColor="#177ec8"
+            android:textSize="16sp" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="7dp"
+            android:layout_marginTop="7dp"
+            android:background="#daeaf6" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="محتوای بخش مشاوره جنسی از منابع معتبر و مجاز تهیه گردیده است و فقط مخصوص متاهلین گرامی میباشد. فعال کردن این بخش با استفاده از رمز عبور که در ابتدا 122333 میباشد امکان پذیر است."
+            android:textColor="#777777"
+            android:textSize="13dp" />
+
+        <TextView
+            android:id="@+id/textView134"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:textStyle="bold"
+            android:text="کنترل دسترسی"
+            android:textColor="#177ec8"
+            android:textSize="15sp" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="7dp"
+            android:layout_marginTop="7dp"
+            android:background="#daeaf6" />
+
+
+        <EditText
+            android:id="@+id/passwordedt"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="right"
+            android:hint="رمز عبور"
+            android:inputType="numberPassword" >
+        </EditText>
+
+        <Button
+            android:id="@+id/openaccessbt"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:text="فعال کردن امکان تغییر دسترسی"
+            android:textSize="14sp" />
+
+        
+        <CheckBox
+            android:id="@+id/accesschbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:text="دسترسی به محتوای بزرگسالان"
+            android:layout_marginTop="10dp"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:textStyle="bold"
+            android:text="تغییر رمز عبور"
+            android:textColor="#177ec8"
+            android:textSize="15sp" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="7dp"
+            android:layout_marginTop="7dp"
+            android:background="#daeaf6" />
+
+
+        <EditText
+            android:id="@+id/currentpass"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="right"
+            android:hint="رمز فعلی"
+            android:inputType="numberPassword" >
+        </EditText>
+
+      
+
+        <EditText
+            android:id="@+id/newpass"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="right"
+            android:hint="رمز جدید"
+            android:inputType="numberPassword" >
+        </EditText>
+
+      
+
+        <EditText
+            android:id="@+id/newpassrepeat"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="right"
+            android:hint="تکرار رمز جدید"
+            android:inputType="numberPassword" >
+        </EditText>
+
+        <Button
+            android:id="@+id/changepassbtn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:text="تغییر رمز عبور"
+            android:textSize="14sp" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="100dp" />
+    </LinearLayout>
+
+</ScrollView>

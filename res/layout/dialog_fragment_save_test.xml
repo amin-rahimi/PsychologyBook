@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    android:padding="20dp" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:textColor="#0a99db"
+        android:layout_gravity="right"
+        android:gravity="right"
+        android:layout_height="wrap_content"
+        android:text="ذخیره کردن تست" />
+
+    <EditText
+        android:id="@+id/userNameTest"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="right"
+        android:gravity="right"
+        android:hint="نام را وارد کنید" >
+
+        <requestFocus />
+    </EditText>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:weightSum="2"
+        android:layout_marginTop="40dp"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/DialogSavebt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#769824"
+            android:textColor="#ffffff"
+            android:layout_marginRight="5dp"
+            android:text="ذخیره کن" />
+
+        <Button
+            android:id="@+id/DialogCancelBt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+             android:background="#eeeeee"
+            android:text="لغو" />
+        
+    </LinearLayout>
+
+</LinearLayout>
